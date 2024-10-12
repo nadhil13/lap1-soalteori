@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laporan Teori HTML</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 12px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .highlight {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Laporan Teori HTML</h1>
+
+    <h1>Muhammad Nadhil Arsy Al-Wafi</h1>
+    <h1>202331303</h1>
+
+    <h2>Pertanyaan Seputar Tag</h2>
+
+    <h3>1. Apa yang dimaksud dengan tag pada HTML?</h3>
+    <p>Tag adalah komponen dasar yang digunakan untuk menandai elemen-elemen dalam sebuah halaman web.</p>
+
+    <h3>2. Apa itu pembuka dan penutup tag? Apakah hal tersebut terdapat pada semua jenis tag?</h3>
+    <p>Pembuka dan penutup tag adalah tanda yang mengapit sebuah elemen. Contohnya adalah tag <b>&lt;p&gt;</b> dan <b>&lt;/p&gt;</b>. Namun, beberapa tag bersifat self-closing, seperti <b>&lt;img&gt;</b> atau <b>&lt;br&gt;</b>.</p>
+
+    <h2>Pertanyaan Seputar Elemen</h2>
+
+    <h3>1. Apa yang dimaksud dengan elemen?</h3>
+    <p>Elemen adalah kombinasi dari tag pembuka, isi, dan tag penutup. Contoh: <b>&lt;p&gt;</b>Ini adalah isi paragraf<b>&lt;/p&gt;</b>.</p>
+
+    <h3>2. Apa yang dimaksud dengan tagname, attribute, dan content pada elemen?</h3>
+    <p><b>Tagname</b> adalah nama dari tag, <b>attribute</b> memberikan informasi tambahan, dan <b>content</b> adalah isi di dalam tag tersebut.</p>
+
+    <h3>3. Apakah elemen dapat ditumpuk? Apa yang terjadi bila demikian?</h3>
+    <p>Elemen dapat ditumpuk, yang dikenal dengan istilah <i>nested elements</i>. Jika ditumpuk dengan benar, maka elemen akan tampil sesuai harapan. Kesalahan penumpukan dapat menyebabkan tampilan yang salah.</p>
+
+    <h2>Pertanyaan Seputar Anchor</h2>
+
+    <h3>1. Apa yang dimaksud dengan anchor?</h3>
+    <p>Anchor adalah elemen HTML yang digunakan untuk membuat tautan ke halaman lain atau lokasi tertentu dalam halaman yang sama.</p>
+
+    <h3>2. Bagaimana caranya anchor dapat berfungsi?</h3>
+    <p>Anchor membutuhkan atribut <b>href</b> untuk merujuk ke URL atau anchor internal. Contoh: <b>&lt;a href="https://www.contoh.com"&gt;</b>Klik di sini<b>&lt;/a&gt;</b>.</p>
+
+    <h2>Pertanyaan Seputar Multimedia</h2>
+
+    <h3>A. Text</h3>
+    <ol>
+        <li>Sebutkan tag yang dapat digunakan untuk memanipulasi konten teks pada HTML, serta jelaskan fungsinya!</li>
+        <p>Contoh tag: <b>&lt;b&gt;</b> untuk teks tebal, <b>&lt;i&gt;</b> untuk teks miring, <b>&lt;u&gt;</b> untuk garis bawah.</p>
+        <li>Sebutkan tag yang dapat digunakan untuk memanipulasi struktur konten teks pada HTML!</li>
+        <p>Contoh tag: <b>&lt;p&gt;</b> untuk paragraf, <b>&lt;br&gt;</b> untuk baris baru, <b>&lt;ol&gt;</b> dan <b>&lt;ul&gt;</b> untuk daftar.</p>
+    </ol>
+
+    <h3>B. Image</h3>
+    <ol>
+        <li>Apa yang menyebabkan gambar tidak tampil di tag image?</li>
+        <p>Beberapa alasan termasuk URL yang salah, gambar rusak, atau masalah hak akses.</p>
+        <li>Jika ada teks pengganti gambar, apa yang sebenarnya terjadi?</li>
+        <p>Ini berarti atribut <b>alt</b> telah digunakan dengan benar untuk menampilkan teks alternatif ketika gambar tidak bisa dimuat.</p>
+    </ol>
+
+    <h3>C. Audio</h3>
+    <ol>
+        <li>Bagaimana cara memasukkan audio dari web (non-lokal)?</li>
+        <p>Gunakan tag <b>&lt;audio&gt;</b> dengan atribut <b>src</b> untuk menyisipkan audio dari URL.</p>
+    </ol>
+
+    <h3>D. Video</h3>
+    <ol>
+        <li>Apa yang harus dilakukan jika atribut autoplay pada tag video tidak berjalan?</li>
+        <p>Tambahkan atribut <b>muted</b> untuk membuat autoplay berfungsi, atau periksa pengaturan browser yang mungkin memblokir autoplay.</p>
+    </ol>
+
+</body>
+</html>
